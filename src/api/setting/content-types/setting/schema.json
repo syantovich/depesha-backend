@@ -1,0 +1,55 @@
+{
+  "kind": "singleType",
+  "collectionName": "settings",
+  "info": {
+    "singularName": "setting",
+    "pluralName": "settings",
+    "displayName": "setting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "logo_width": {
+      "type": "string",
+      "required": false
+    },
+    "logo_height": {
+      "type": "string",
+      "required": false
+    },
+    "header_img_width": {
+      "type": "string",
+      "required": false
+    },
+    "background_color": {
+      "type": "string"
+    },
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "delay_downloads": {
+      "type": "biginteger",
+      "default": "2000"
+    },
+    "number_of_frames": {
+      "type": "biginteger",
+      "default": "60",
+      "required": false
+    },
+    "default_person_img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

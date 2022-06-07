@@ -1,0 +1,52 @@
+{
+  "kind": "singleType",
+  "collectionName": "header_contents",
+  "info": {
+    "singularName": "header-content",
+    "pluralName": "header-contents",
+    "displayName": "header content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "text",
+      "required": true,
+      "unique": true
+    },
+    "playmarket": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "appstore": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "background": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "kind": "singleType",
+  "collectionName": "block3s",
+  "info": {
+    "singularName": "block3",
+    "pluralName": "block3s",
+    "displayName": "Block3"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "downloads": {
+      "type": "biginteger",
+      "required": false
+    },
+    "img": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    }
+  }
+}
