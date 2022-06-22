@@ -4,7 +4,8 @@
   "info": {
     "singularName": "blog",
     "pluralName": "blogs",
-    "displayName": "Blog"
+    "displayName": "Blog",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,16 +17,19 @@
       "required": true,
       "minLength": 3
     },
-    "text": {
-      "type": "text",
-      "required": true
+    "partOfBlog": {
+      "type": "dynamiczone",
+      "components": [
+        "blog.part-of-blog"
+      ]
     },
     "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

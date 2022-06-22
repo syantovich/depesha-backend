@@ -45,11 +45,16 @@
       "required": false
     },
     "default_person_img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "email_to_send": {
+      "type": "email",
+      "required": true
     }
   }
 }

@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_contacts_locations",
+  "info": {
+    "displayName": "location",
+    "icon": "map-marker-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "coordinates": {
+      "type": "string",
+      "required": true
+    },
+    "img_location": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_contacts_emails",
+  "info": {
+    "displayName": "email",
+    "icon": "pastafarianism",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "email",
+      "required": true
+    },
+    "img_email": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_blog_part_of_blogs",
+  "info": {
+    "displayName": "partOfBlog",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text",
+      "required": false
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "float": {
+      "type": "enumeration",
+      "enum": [
+        "right",
+        "left",
+        "none"
+      ]
+    },
+    "widthImg": {
+      "type": "string"
+    },
+    "fontSize": {
+      "type": "string"
+    }
+  }
+}
